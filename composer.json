@@ -8,6 +8,13 @@
             "Sabers\\ModulesManager\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sabers\\ModulesManager\\ModulesManagerServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "post-autoload-dump": [
             "php artisan vendor:publish --tag=modules-manager --force"
