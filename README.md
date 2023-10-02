@@ -1,4 +1,4 @@
-## Debugbar for Laravel
+# Modules Manager
 
 Modules Manager is a Laravel package that simplifies the management of modules in your Laravel applications.
 
