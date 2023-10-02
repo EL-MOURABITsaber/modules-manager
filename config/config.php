@@ -1,4 +1,4 @@
-<? 
+<?php 
 return [
     'available_modules' => [
 
