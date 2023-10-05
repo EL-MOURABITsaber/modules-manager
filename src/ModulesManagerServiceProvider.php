@@ -15,7 +15,6 @@ class ModulesManagerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/modules-manager.php', 'modules-manager');
         $this->app->singleton('modules-manager', function () {
             return new ModulesManager();
         });

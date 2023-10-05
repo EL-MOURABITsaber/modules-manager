@@ -17,7 +17,7 @@
     },
     "scripts": {
         "post-autoload-dump": [
-            "php artisan vendor:publish --tag=modules-manager --force"
+            "@php artisan vendor:publish --tag=modules-manager --force"
         ]
     },
     "authors": [
