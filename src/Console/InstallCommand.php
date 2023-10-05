@@ -34,6 +34,9 @@ class InstallCommand extends Command
 
     public function handle(){
 
+        // publishing the config 
+        $this->callSilent('vendor:publish', ['--tag' => 'composer.json', '--force' => true]);
+
          // Storage...
          $this->callSilent('storage:link');
 
