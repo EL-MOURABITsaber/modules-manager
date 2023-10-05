@@ -28,7 +28,8 @@ class InstallCommand extends Command
         '@tailwindcss/typography' => '^0.5.0',
         'autoprefixer' => '^10.4.7',
         'postcss' => '^8.4.14',
-        '@ryangjchandler/alpine-tooltip'=> '^1.3.0'
+        '@ryangjchandler/alpine-tooltip'=> '^1.3.0',
+        '@ryangjchandler/alpine-clipboard'=>'^2.3.0',
     ];
 
 
