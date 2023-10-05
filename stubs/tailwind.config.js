@@ -5,7 +5,7 @@ import typography from '@tailwindcss/typography';
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        './vendor/sabers/resources/views/**/*.blade.php',
+        './vendor/sabers/modules-manager/resources/views/**/*.blade.php',
         './resources/views/**/*.blade.php',
         './modules/**/*.blade.php',
     ],
