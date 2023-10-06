@@ -1,7 +1,7 @@
 <x-layouts.base>
 
 
-    <x-slot name="pageName">{{ $pageName }}</x-slot>
+    <x-slot name="pageName">{{ $pageName ?? 'Undefined' }}</x-slot>
   
     
     {{ $slot }}

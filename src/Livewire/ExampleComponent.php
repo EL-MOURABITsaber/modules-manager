@@ -28,6 +28,6 @@ class ExampleComponent extends Component
     public function render()
     {
         // Render the Livewire component's view
-        return view('modules-manager::livewire.example-component');
+        return view('modules-manager::livewire.example-component')->layout('components.layouts.guest');
     }
 }
