@@ -17,7 +17,13 @@ Next, publish the package's configuration file and assets using the following Ar
 php artisan vendor:publish --tag="modules-manager"
 ```
 
-After publishing the configuration, make sure to install the required frontend dependencies and compile the assets:
+After publishing the configuration, make sure to run the install command , this will setup layouts , install frnt and back end packages revolving around the tallStack
+
+```shell
+php artisan tallStack:install
+```
+
+After the instalation, make sure to install the required frontend dependencies and compile the assets:
 
 ```shell
 npm install
