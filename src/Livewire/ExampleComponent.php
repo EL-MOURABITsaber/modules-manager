@@ -16,13 +16,12 @@ class ExampleComponent extends Component
         $this->message = 1;
     }
 
-    public function updateMessage()
-    {
+    public function installModule($name,$link){
+        ModulesManagerFacade::downloadModule($name,$link);
 
-
-        ModulesManagerFacade::downloadModule();
-
-        $this->message += 1;
+    }
+    public function deletModule($name){
+        ModulesManagerFacade::deleteModule($name);
     }
 
     public function render()
