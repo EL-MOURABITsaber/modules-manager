@@ -31,7 +31,7 @@ class ModulesManager
         
         $originalDirectory = getcwd();
         chdir($targetDirectory);
-        exec("git clone {$link}");
+        exec("git clone {$link} {$name}");
         chdir($originalDirectory); 
 
     }
