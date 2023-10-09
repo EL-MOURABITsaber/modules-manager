@@ -29,6 +29,9 @@ class ModulesManagerServiceProvider extends ServiceProvider
         
         //load views 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'modules-manager');
+
+        //load migrations
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         
 
         // register liveiwre component 
