@@ -18,7 +18,7 @@ return [
         ],
         
         'module_two' => [
-            'name' => 'Module Two',
+            'name' => 'ModuleTwo',
             'description' => 'Description of Module Two.',
             'link'=>'https://github.com/barryvdh/laravel-ide-helper',
             'category'=>'user auth',
