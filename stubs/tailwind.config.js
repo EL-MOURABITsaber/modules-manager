@@ -7,7 +7,7 @@ export default {
     content: [
         './vendor/sabers/modules-manager/resources/views/**/*.blade.php',
         './resources/views/**/*.blade.php',
-        './modules/**/*.blade.php',
+        './Modules/**/*.blade.php',
     ],
 
     theme: {
